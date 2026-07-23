@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JL Segurança Digital: diagnóstico digital, cibersegurança, presença digital e soluções para pequenos negócios." />
+  <title>JL Segurança Digital | Hub de Serviços</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="JL Segurança Digital - início">
+        <span class="brand-mark">JL</span>
+        <span><strong>JL Segurança</strong><small>Digital</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#servicos">Serviços</a>
+        <a href="#hub">Hub</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#sobre">Sobre</a>
+        <a class="btn btn-small" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Tecnologia acessível para pequenos negócios</span>
+          <h1>Diagnóstico digital, cibersegurança e presença digital em um só lugar.</h1>
+          <p>Organize processos, proteja seus dados e fortaleça a divulgação do seu negócio com soluções simples, claras e adequadas à sua realidade.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#hub">Conhecer o hub de serviços</a>
+            <a class="btn btn-outline" href="https://wa.me/5532988419009" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+          <div class="hero-badges">
+            <span>✓ Atendimento remoto e presencial</span>
+            <span>✓ Sem pedir senhas</span>
+            <span>✓ Soluções sob medida</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/images/banner-jl.png" alt="Apresentação da JL Segurança Digital" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Serviços principais</span>
+          <h2>Como a JL pode ajudar seu negócio</h2>
+          <p>Serviços organizados em áreas para facilitar sua escolha.</p>
+        </div>
+        <div class="cards-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="hub">
+      <div class="container hub-grid">
+        <div>
+          <span class="eyebrow eyebrow-light">Hub JL</span>
+          <h2>Um ponto central para todas as suas necessidades digitais</h2>
+          <p class="muted-light">Da análise inicial à implantação e ao acompanhamento, você encontra serviços complementares para segurança, organização e crescimento.</p>
+        </div>
+        <div class="hub-list" id="hubList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="clientes">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="eyebrow">Vitrine de clientes</span>
+            <h2>Negócios atendidos e parceiros</h2>
+          </div>
+          <p>Espaço para publicar fotos de estabelecimentos, logomarcas e pequenos destaques de clientes.</p>
+        </div>
+        <div class="clients-grid" id="clientsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="sobre">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">Sobre a JL</span>
+          <h2>Tecnologia explicada de forma simples</h2>
+          <p>A JL Segurança Digital nasceu para apoiar pequenos e médios negócios que precisam melhorar sua organização, segurança e presença na internet sem complicação.</p>
+          <p>O atendimento começa com uma conversa para entender a realidade do cliente. Depois, é apresentado um plano de ação objetivo, com prioridades e opções de implementação.</p>
+        </div>
+        <div class="about-panel">
+          <h3>Atendimento ideal para</h3>
+          <ul>
+            <li>Lojas e escritórios</li>
+            <li>Padarias e lanchonetes</li>
+            <li>Autopeças e oficinas</li>
+            <li>Pet shops e clínicas</li>
+            <li>Pequenos comércios e prestadores</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-card">
+        <div>
+          <span class="eyebrow eyebrow-light">Análise inicial</span>
+          <h2>Vamos conversar sobre o seu negócio?</h2>
+          <p>Explique sua necessidade e receba uma orientação inicial.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-light" href="https://wa.me/5532988419009" target="_blank" rel="noopener">WhatsApp: (32) 98841-9009</a>
+          <a class="contact-link" href="mailto:jlsegurancadigital@gmail.com">jlsegurancadigital@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="currentYear"></span> JL Segurança Digital. Todos os direitos reservados.</p>
+      <a href="#inicio" id="backToTop">Voltar ao início ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
