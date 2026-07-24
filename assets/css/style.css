@@ -47,6 +47,26 @@ a { color: inherit; text-decoration: none; }
 .main-nav a:not(.btn):hover { color: var(--cyan-dark); }
 .menu-toggle { display: none; border: 0; background: transparent; font-size: 1.7rem; color: var(--navy); }
 
+.apresentacao-jl {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.apresentacao-jl h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+}
+
+.apresentacao-jl p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   min-height: 50px; padding: 0 22px; border-radius: 14px;
